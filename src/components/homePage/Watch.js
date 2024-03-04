@@ -59,7 +59,7 @@ const Watch = ({ watch }) => {
         </>
         <div className='flex overflow-y-hidden' ref={carouselContainer}>
           {watch.map((movie, id) => (
-            <MovieDetails key={movie.id} movie={movie} rankings={movie.id} />
+            <MovieDetails key={movie.id} movie={movie} ranking={movie.id} />
           ))}
         </div>
       </div>
